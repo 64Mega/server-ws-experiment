@@ -1,0 +1,7 @@
+node_modules
+ca.crt
+ca.key
+*.pem
+dist
+build
+.parcel-cache

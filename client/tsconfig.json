@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "allowSyntheticDefaultImports": true,
+        "allowUmdGlobalAccess": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "checkJs": true,
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

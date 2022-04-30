@@ -1,0 +1,22 @@
+{
+	"configurations": [
+		{
+			"command": "npm start",
+			"name": "Run npm start",
+			"request": "launch",
+			"type": "node-terminal",
+			"serverReadyAction": {
+				"action": "startDebugging",
+				"name": "Launch Edge",
+				"pattern": "Server running at https?\\:\\/\\/.+(\\:\\d+)?"
+			}
+		},
+		{
+			"name": "Launch Edge",
+			"request": "launch",
+			"type": "pwa-msedge",
+			"url": "https://localhost:1234",
+			"webRoot": "${workspaceFolder}"
+		}
+	]
+}
